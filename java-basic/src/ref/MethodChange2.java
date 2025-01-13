@@ -6,7 +6,7 @@ public class MethodChange2 {
         dataA.value = 10;
         System.out.println("메서드 호출 전 : dataA.value = " + dataA.value);
         changeReference(dataA);
-        System.out.println("메서드 호출 후: dataA.value = " + dataA.value);
+        System.out.println("메서드 호출 후 : dataA.value = " + dataA.value);
     }
 
     static void changeReference(Data dataX) {

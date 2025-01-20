@@ -3,7 +3,8 @@ package constructor;
 public class MemberDefault {
     String name;
 
-    MemberDefault() {
+    //기본 생성자
+    public MemberDefault() {
         System.out.println("생성자 호출");
     }
 }

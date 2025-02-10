@@ -9,11 +9,11 @@ public class AccessInnerMain {
         data.publicMethod();
 
         // 같은 패키지 default 호출 가능
-        data.defaultField = 2;
+        data.defaultField = 3;
         data.defaultMethod();
 
         // private 호출 불가
-        // data.privateField = 3;
+        // data.privateField = 5;
         // data.privateMethod();
 
         data.innerAccess();

@@ -15,3 +15,4 @@ class DefaultClass1 {
 class DefaultClass2 {
 
 }
+

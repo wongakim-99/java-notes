@@ -19,7 +19,7 @@ public class BankAccount {
     // public 메서드 : withdraw
     public void withdraw(int amount) {
         if (isAmountValid(amount) && balance - amount >= 0) {
-            balance -= amount;
+            balance += amount;
         } else {
             System.out.println("유효하지 않은 금액이거나 잔액이 부족합니다.");
         }

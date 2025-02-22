@@ -9,6 +9,6 @@ public class DataCountMain1 {
         System.out.println("B count = " + data2.count);
 
         Data1 data3 = new Data1("C");
-        System.out.println("B count = " + data3.count);
+        System.out.println("C count = " + data3.count);
     }
 }

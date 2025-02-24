@@ -6,6 +6,6 @@ public class GasCar {
     }
 
     public void fillUp() {
-        System.out.println("차를 주유합니다.");
+        System.out.println("차를 충전합니다.");
     }
 }

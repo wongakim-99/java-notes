@@ -6,6 +6,6 @@ public class ElectricCar {
     }
 
     public void charge() {
-        System.out.println("차를 충전합니다.");
+        System.out.println("충전합니다.");
     }
 }
